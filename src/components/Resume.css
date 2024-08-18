@@ -1,0 +1,11 @@
+.resume {
+  border: 1px solid gray;
+  margin: 10px;
+  padding: 10px;
+}
+.resume > h1 {
+  text-decoration-line: underline;
+}
+.resume__items {
+  margin-top: 20px;
+}

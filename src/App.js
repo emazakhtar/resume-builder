@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import {
+  resume,
+  resume1,
+  resume2,
+  resume3,
+  resume4,
+  resume5,
+  resume6,
+  resume7,
+} from "./data/data";
 
+import Resume from "./components/Resume";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Resume {...resume} />
+      <Resume {...resume1} />
+      <Resume {...resume2} />
+      <Resume {...resume3} />
+      <Resume {...resume4} />
+      <Resume {...resume5} />
+      <Resume {...resume6} />
+      <Resume {...resume7} />
     </div>
   );
 }
